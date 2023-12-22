@@ -8,4 +8,4 @@
 * CSS / TailwindCSS
 * ServiceWorker / Workbox
 
-Learn more: [https://haustein.in](Hendrik Haustein)
+Learn more: [Hendrik Haustein](https://haustein.in)
