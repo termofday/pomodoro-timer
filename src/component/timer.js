@@ -55,7 +55,7 @@ export default function Timer(props)
             {
                 dispatch({ type: 'INCREASE_TIMER' }); 
             } 
-            else if (a === 'DEC' && state.timer > 0 && state.start_stop === false) 
+            else if (a === 'DEC' && state.timer > 1 && state.start_stop === false) 
             {
                 dispatch({ type: 'DECREASE_TIMER' });
             }
@@ -64,7 +64,7 @@ export default function Timer(props)
                     {
                         dispatch({ type: 'B_INCREASE_TIMER' });
                     }
-                    else if(a === 'B_DEC' && state.breaker > 0 && state.start_stop === false)
+                    else if(a === 'B_DEC' && state.breaker > 1 && state.start_stop === false)
                     {
                         dispatch({ type: 'B_DECREASE_TIMER' });
                     } 
@@ -97,6 +97,7 @@ export default function Timer(props)
             setTime(state.timer * 60 * 1000)
 
             // fast bug fix; timer shows 00:00 instead 60:00
+
             if(state.timer > 59)
             {
                 setTime(59 * 60 * 1000)

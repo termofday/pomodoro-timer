@@ -15,7 +15,7 @@ export default function App() {
           <Timer />
         
           <div className='mt-20 text-center font-bold text-white opacity-60 hover:opacity-100'>
-            <div>Tech: HTML | CSS/TailwindCSS | JavaScript/React</div>
+            <div>Tech: HTML | CSS/TailwindCSS | JavaScript/React | ServiceWorker/Workbox</div>
             <div>Created by</div>
             <div><a href="https://haustein.in">Hendrik Haustein</a></div>
           </div>
