@@ -1,4 +1,4 @@
-# Pomodor 25 + 5 Timer
+# Pomodoro 25 + 5 Timer
 
 25 + 5 Timer written for freecodecamp.org. This is a progessive web ap (pwa).
 
