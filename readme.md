@@ -1,6 +1,6 @@
 # Pomodoro 25 + 5 Timer
 
-25 + 5 Timer written for freecodecamp.org. This is a progessive web ap (pwa).
+25 + 5 Timer written for freecodecamp.org. This is a progessive web app (pwa).
 
 ## Tech uses:
 
